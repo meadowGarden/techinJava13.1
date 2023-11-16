@@ -50,7 +50,7 @@ public class User {
     public static List<User> getUsersWithAge(Integer ... ages){
         List<User> users = new ArrayList<>();
         for (Integer age : ages) {
-	  users.add(new User(age));
+	        users.add(new User(age));
         }
         return users;
     }
